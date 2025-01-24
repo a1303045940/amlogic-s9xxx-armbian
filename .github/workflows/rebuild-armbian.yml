@@ -151,10 +151,11 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.y_5.15.y"
+        default: "6.1.57"
         type: choice
         options:
           - 5.4.y
+          - 6.1.57
           - 5.10.y
           - 5.15.y
           - 6.1.y
@@ -170,10 +171,11 @@ on:
       kernel_repo:
         description: "Set the kernel repository."
         required: false
-        default: "ophub/kernel"
+        default: "hellotheasia/kernel"
         type: choice
         options:
           - ophub/kernel
+          - hellotheasia/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
