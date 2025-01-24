@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "nas-lite"
+        default: "bendian"
         type: choice
         options:
           - all
@@ -30,6 +30,8 @@ on:
           - s905x3-x88-pro-x3_s912-m8s-pro_s905x-t95_s912-t95z-plus_s905l3-unt400g1_s905lb-r3300l
           - seewo-sv21_smart-am40_station-m1_sw799_tn3399_zysj_tvi3315a_xiaobao_zcube1-max
           - vplus_tanix-tx6_tqc-a01
+          - nas-lite
+          - bendian
           - a311d
           - beikeyun
           - chainedbox
