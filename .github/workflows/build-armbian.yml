@@ -191,6 +191,7 @@ on:
         options:
           - ophub/kernel
           - hellotheasia/kernel
+          - a1303045940/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
